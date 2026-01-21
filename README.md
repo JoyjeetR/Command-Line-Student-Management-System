@@ -1,17 +1,17 @@
-# 🎓 Student Management System (Python + MySQL)
+# Student Management System (Python + MySQL)
 
 A **Command-Line Student Management System** built using Python and MySQL.  
 This application allows users to **add, update, delete, search, and display student records** stored in a MySQL database, presented in a clean tabular format using the `tabulate` library.
 
-## 📌 Features
+## Features
 
-- ➕ Add new student records  
-- ✏️ Update student details (Name, Age, Grade, Email)  
-- ❌ Delete student records using Student ID  
-- 🔍 Search students by **ID** or **Name**  
-- 📋 Display all student records  
-- 🗄️ Persistent storage using **MySQL database**  
-- 🖥️ Interactive and user-friendly CLI menu  
+- Add new student records  
+- Update student details (Name, Age, Grade, Email)  
+- Delete student records using Student ID  
+- Search students by **ID** or **Name**  
+- Display all student records  
+- Persistent storage using **MySQL database**  
+- Interactive and user-friendly CLI menu  
 
 
 ## 🛠️ Technologies Used
@@ -37,49 +37,29 @@ This application allows users to **add, update, delete, search, and display stud
 - GUI or Web-based interface (Flask/Django)
 
 ## Preview
-![image]()
-![image]()
-![image]()
-![image]()
-![image]()
+![image]("https://github.com/JoyjeetR/Command-Line-Student-Management-System/blob/main/img/Preview1.png") 
+![image]("https://github.com/JoyjeetR/Command-Line-Student-Management-System/blob/main/img/Preview2.png")
+![image]("https://github.com/JoyjeetR/Command-Line-Student-Management-System/blob/main/img/Preview3.png")
+![image]("https://github.com/JoyjeetR/Command-Line-Student-Management-System/blob/main/img/Preview4.png")
+![image]("https://github.com/JoyjeetR/Command-Line-Student-Management-System/blob/main/img/Preview5.png")
 
 
 ## Project structure
-Student-Management-System/
-│
-├── student_management.py # Main Python program
+Student-Management-System/<br>
+│<br>
+├── student_management.py # Main Python program<br>
 └── README.md # Project documentation
 
-## 🗄️ Database Setup
-
-### Create Database
-- sql
-- CREATE DATABASE python;
-
-### Use Database
-- USE python
-
-### Create Table
-- CREATE TABLE STUDENT (
-    STUDENT_ID INT PRIMARY KEY,
-    NAME VARCHAR(100),
-    AGE INT,
-    GRADE VARCHAR(10),
-    EMAIL VARCHAR(100)
-);
+## Database Setup
+- Create a database in sql 'name'
+- Create Table inside 'name' containing id, name, email, age, grade columns
 
 ## Installation & Setup
-### Install Required Packages
-- pip install mysql-connector-python tabulate
+- Install mysql-connector-python tabulate 
 
 ## Update Database Credentials
-- In the Python file, update:
-- database = mysql.connect(
-    host="localhost",
-    user="root",
-    password="your_password",
-    database="python"
-)
+- Update the database connect as per your details
+- Insert your host, user, password and database in sql.connect
 
 ## Author
 Developed by Joyjeet Roy
