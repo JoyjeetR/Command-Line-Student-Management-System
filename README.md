@@ -37,11 +37,11 @@ This application allows users to **add, update, delete, search, and display stud
 - GUI or Web-based interface (Flask/Django)
 
 ## Preview
-![image]("https://github.com/JoyjeetR/Command-Line-Student-Management-System/blob/main/img/Preview1.png") 
-![image]("https://github.com/JoyjeetR/Command-Line-Student-Management-System/blob/main/img/Preview2.png")
-![image]("https://github.com/JoyjeetR/Command-Line-Student-Management-System/blob/main/img/Preview3.png")
-![image]("https://github.com/JoyjeetR/Command-Line-Student-Management-System/blob/main/img/Preview4.png")
-![image]("https://github.com/JoyjeetR/Command-Line-Student-Management-System/blob/main/img/Preview5.png")
+![image](https://github.com/JoyjeetR/Command-Line-Student-Management-System/blob/main/img/Preview1.png) 
+![image](https://github.com/JoyjeetR/Command-Line-Student-Management-System/blob/main/img/Preview2.png)
+![image](https://github.com/JoyjeetR/Command-Line-Student-Management-System/blob/main/img/Preview3.png)
+![image](https://github.com/JoyjeetR/Command-Line-Student-Management-System/blob/main/img/Preview4.png)
+![image](https://github.com/JoyjeetR/Command-Line-Student-Management-System/blob/main/img/Preview5.png)
 
 
 ## Project structure
